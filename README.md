@@ -31,7 +31,7 @@ FarmAI aims to empower farmers by providing timely diagnosis of crop diseases th
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Farzine/FarmAI.git
+   git clone https://github.com/Nayem-51/Project250.git
    cd FarmAI
    cd client2
    cd server2
@@ -73,7 +73,7 @@ FarmAI aims to empower farmers by providing timely diagnosis of crop diseases th
 - **Expert Advice**: Read recommendations from experts on how to improve crop yield and management.
 
 ## Demo Video
-You can find a demo video of the project [here](https://github.com/Farzine/FarmAI/tree/main/client2/public/FarmAI.mp4)
+You can find a demo video of the project [here](https://github.com/Nayem-51/Project250/tree/main/client2/public/FarmAI.mp4)
 
 
 ## Contributing
@@ -89,8 +89,5 @@ Contributions are welcome! If you'd like to contribute to the project, please fo
 
 Distributed under the MIT [License](license). See LICENSE for more information.
 
-## Contact
 
-Farzine - [alfezafarzine@gmail.com](alfezafarzine@gmail.com)
-
-Project Link: [https://github.com/Farzine/FarmAI](https://github.com/Farzine/FarmAI)
+Project Link: [https://github.com/Nayem-51/Project250](https://github.com/Nayem-51/Project250)
