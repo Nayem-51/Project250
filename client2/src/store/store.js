@@ -1,3 +1,5 @@
+// import adminBillSlice from "./admin/bill-slice";
+
 import { configureStore } from "@reduxjs/toolkit";
 import authReducer from "./auth-slice";
 import adminProductsSlice from "./admin/products-slice";
@@ -26,6 +28,7 @@ const store = configureStore({
     shopReview: shopReviewSlice,
 
     commonFeature: commonFeatureSlice,
+    // adminBill: adminBillSlice,
   },
 });
 

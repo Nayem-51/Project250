@@ -1,3 +1,6 @@
+
+// import AdminBills from "./pages/admin-view/bills";
+import SuggestionDetailsPage from "./pages/farmAI-view/suggestion-details";
 import { Route, Routes } from "react-router-dom";
 import AuthLayout from "./components/auth/layout";
 import AuthLogin from "./pages/auth/login";
@@ -82,6 +85,7 @@ function App() {
           <Route path="features" element={<AdminFeatures />} />
           <Route path="scm" element={<AdminSCM />} />
           <Route path="expertAdvice" element={<AdminExpertAdvice />} />
+          {/* <Route path="/admin/bills" element={<AdminBills />} /> */}
         </Route>
         <Route
           path="/shop"
@@ -112,6 +116,7 @@ function App() {
           <Route path="diagnosis" element={<DiagnosisPage />} />
           <Route path="home" element={<Home />} />
         </Route>
+        <Route path="/suggestion/:id" element={<SuggestionDetailsPage />} />
         <Route path="/unauth-page" element={<UnauthPage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

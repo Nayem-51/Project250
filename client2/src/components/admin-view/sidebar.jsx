@@ -42,6 +42,13 @@ const adminSidebarMenuItems = [
     path: "/admin/expertAdvice",
     icon: <FileText />,
   },
+// {
+//   id: "bills",
+//   label: "Bills",
+//   path: "/admin/bills",
+//   icon: Receipt // বা আপনার পছন্দের icon
+// },
+
 ];
 
 function MenuItems({ setOpen }) {
